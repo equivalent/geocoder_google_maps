@@ -9,7 +9,7 @@ Geocoder gem isn't necessarily required
 
 add to Gemfile:
 
-    gem 'geocoder_google_maps', git: 'git@github.com:equivalent/geocoder_google_maps.git'
+    gem 'geocoder_google_maps', github: 'equivalent/geocoder_google_maps'
 
 and run 
 
