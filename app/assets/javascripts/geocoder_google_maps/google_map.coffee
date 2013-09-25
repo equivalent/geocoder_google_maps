@@ -1,5 +1,5 @@
 $(document).ready ->
-  $('div.geocoder-google-map').each (index, mapElement) =>
+  $('div.geocoder-google-maps').each (index, mapElement) =>
     jQMapElement = $(mapElement)
     mapOptions =
       zoom: jQMapElement.data('zoom')
