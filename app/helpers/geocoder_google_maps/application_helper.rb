@@ -3,7 +3,7 @@ module GeocoderGoogleMaps
     def google_map_div(latitude, longitude, options={})
       zoom = options[:zoom] || 16
 
-      content_tag :div, '', class: 'geocoder-google-map', :'data-longitude' => longitude, :'data-latitude' => latitude, :'data-zoom' => zoom
+      content_tag :div, '', class: 'geocoder-google-maps', :'data-longitude' => longitude, :'data-latitude' => latitude, :'data-zoom' => zoom
     end
 
     def google_map_api
